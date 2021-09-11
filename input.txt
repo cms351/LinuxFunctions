@@ -1,0 +1,4 @@
+David 3.1
+John 3.2
+Lisa 2.1
+Tiffany 3.9
