@@ -20,7 +20,7 @@ gcc -o pre pre.c
 gcc -o sort sort.c 
 gcc -o shhh shhh.c 
 
-3. Time to start testing the code. Run the following command: 
+(3) Time to start testing the code. Run the following command: 
 
 ./shhh 
 
@@ -32,19 +32,19 @@ Then just try to run this command again:
 
 ./shhh
 
-4. Ok, once you're in the shhh program, let's test something simple. Run the command: 
+(4) Ok, once you're in the shhh program, let's test something simple. Run the command: 
 
 ls
 
-5. Now try: 
+(5) Now try: 
 
 ls -t -al 
 
-6. Try printing a txt file. This should output "file.txt printed correctly!". Run the command: 
+(6) Try printing a txt file. This should output "file.txt printed correctly!". Run the command: 
 
 cat file.txt
 
-7. Let's text the output redirect command. Run the command: 
+(7) Let's text the output redirect command. Run the command: 
 
 ls -al > output.txt 
 
@@ -52,11 +52,11 @@ then run the command:
 
 cat output.txt 
 
-8. Let's test the piping. Run the command: 
+(8) Let's test the piping. Run the command: 
 
 ls | more | wc 
 
-9. Finally, let's go crazy with a input redirect, output redirect, and some piping. Run the command: 
+(9) Finally, let's go crazy with a input redirect, output redirect, and some piping. Run the command: 
 
 ./pre < input.txt | ./sort > output.txt
 
@@ -66,11 +66,11 @@ cat output.txt
 
 This should output a sorted list from the list of names in input.txt. 
 
-10. Obviously, that was just a rundown of the testing I've done. Feel free to play around with the code!
+(10) Obviously, that was just a rundown of the testing I've done. Feel free to play around with the code!
 
-11. When you're ready to exit the program, run the command: 
+(11) When you're ready to exit the program, run the command: 
 
 exit 
 
-12. Thank you for checking out my code! Let me know what you think of the source code. This was probably the most enjoyable 
+(12) Thank you for checking out my code! Let me know what you think of the source code. This was probably the most enjoyable 
 university project I've done so I'm excited to share it with others. 
