@@ -10,10 +10,10 @@ first time piping things like this. It was just really cool to have so much cont
 should work and the set up should be pretty easy, but if output ever prints weird just exit out the terminal, re-enter and pick back
 up on the step you were just on. Just retrying a step with a clear terminal will get it to output correctly again. 
 
-1. Pull these files onto your local machine, put them in a folder together wherever you want. Enter your Linux terminal and enter
+(1) Pull these files onto your local machine, put them in a folder together wherever you want. Enter your Linux terminal and enter
 that directory. 
 
-2. Just to make sure there's no unexpected issues, go ahead and remake the make files. Probably overkill, but I'm paranoid. 
+(2) Just to make sure there's no unexpected issues, go ahead and remake the make files. Probably overkill, but I'm paranoid. 
 Run these commands: 
 
 gcc -o pre pre.c 
