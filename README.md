@@ -16,62 +16,64 @@ that directory.
 
 (2) Just to make sure there's no unexpected issues, go ahead and remake the make files. Probably overkill, but I'm paranoid. 
 Run these commands: 
-
+```
 gcc -o pre pre.c 
+
 gcc -o sort sort.c 
+
 gcc -o shhh shhh.c 
-
+```
 (3) Time to start testing the code. Run the following command: 
-
+```
 ./shhh 
-
+```
 If that doesn't work, it's probably a permissions problem. This is overkill, but this command should fix any problems with that:
-
+```
 chmod ugo+rwx file.txt input.txt output.txt pre pre.c shhh shhh.c sort sort.c
-
+```
 Then just try to run this command again: 
-
+```
 ./shhh
-
+```
 (4) Ok, once you're in the shhh program, let's test something simple. Run the command: 
-
+```
 ls
-
+```
 (5) Now try: 
-
+```
 ls -t -al 
-
+```
 (6) Try printing a txt file. This should output "file.txt printed correctly!". Run the command: 
-
+```
 cat file.txt
-
+```
 (7) Let's text the output redirect command. Run the command: 
-
+```
 ls -al > output.txt 
-
+```
 then run the command: 
-
+```
 cat output.txt 
-
+```
 (8) Let's test the piping. Run the command: 
-
+```
 ls | more | wc 
-
+```
 (9) Finally, let's go crazy with a input redirect, output redirect, and some piping. Run the command: 
-
+```
 ./pre < input.txt | ./sort > output.txt
-
+```
 Then run the command: 
-
+```
 cat output.txt
-
+```
 This should output a sorted list from the list of names in input.txt. 
 
 (10) Obviously, that was just a rundown of the testing I've done. Feel free to play around with the code!
 
 (11) When you're ready to exit the program, run the command: 
-
+```
 exit 
-
+```
 (12) Thank you for checking out my code! Let me know what you think of the source code. This was probably the most enjoyable 
 university project I've done so I'm excited to share it with others. 
