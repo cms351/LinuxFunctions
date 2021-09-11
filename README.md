@@ -2,6 +2,7 @@
 Imitation Linux terminal commands as its own C program. 
 
 Instructions: 
+
 Alright! So this was a university project for my operating systems class. Basically, the task was to implement the pipe command and 
 the "<" and ">" (input and output redirect) commands like you would see in the Linux terminal. Full disclosure, my implementation
 has some cosmetic bugs when it prints its output, but it really does implement those features correctly and I'm really proud of it. 
