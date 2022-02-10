@@ -3,18 +3,25 @@ Imitation Linux terminal commands as its own C program.
 
 Instructions: 
 
-Alright! So this was a university project for my operating systems class. Basically, the task was to implement the pipe command and 
-the "<" and ">" (input and output redirect) commands like you would see in the Linux terminal. Full disclosure, my implementation
-has some cosmetic bugs when it prints its output, but it really does implement those features correctly and I'm really proud of it. 
+This was a university project for my operating systems class. Basically, the task was to implement the pipe command and 
+the "<" and ">" (input and output redirect) commands like you would see in the Linux terminal.
 This project was super fun because I was working with C for the first time, it was my first time working with file descriptors, 
-first time piping things like this. It was just really cool to have so much control of what you were coding. Anyway, all of the steps
-should work and the set up should be pretty easy, but if output ever prints weird just exit out the terminal, re-enter and pick back
-up on the step you were just on. Just retrying a step with a clear terminal will get it to output correctly again. 
+first time piping things like this. It was really cool. 
+All of the steps should work, but I have run into some occassional cosmetic bugs within the terminal. It doesn't affect the 
+program's main functionality nor is it difficult to troubleshoot. If you encounter any bugs within the program, just exit 
+the program, reopen it, and continue on the step you were previously on. Also, please consider that a portion of this code 
+was supplied by my professor and I was tasked with completing the program. Some of the coding style in the supplied portion
+can be pretty rough - I did not write that and was not permitted to change it. 
+
+As of writing this 2/09/2022, I'm more focused on my other projects and don't plan on revisiting this program. This is only here
+to demonstrate my ability to work with C for potential employers. 
+
+For a tour of the program, please follow these steps: 
 
 (1) Pull these files onto your local machine, put them in a folder together wherever you want. Enter your Linux terminal and enter
 that directory. 
 
-(2) Just to make sure there's no unexpected issues, go ahead and remake the make files. Probably overkill, but I'm paranoid. 
+(2) Just to make sure there's no unexpected issues, go ahead and remake the make files. (Probably overkill, I know). 
 Run these commands: 
 ```
 gcc -o pre pre.c 
